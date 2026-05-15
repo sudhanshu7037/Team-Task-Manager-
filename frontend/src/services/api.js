@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://team-task-manager-backend-lq4s.onrender.com/api',
+  baseURL: 'team-task-manager-production-1cd3.up.railway.app/api',
 });
 
 // Add a request interceptor to attach JWT token
